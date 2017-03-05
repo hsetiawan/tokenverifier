@@ -5,7 +5,13 @@ only provides validation, it will not request long term access tokens and will n
 with the social services in any other way.
 
 The code validates the token's integrity, check if it's intended for your app id, and checks it with the provider's
-service (therefore it requires network access).
+service (it requires network access).
+
+It's suitable for authentication login on your backend when you use the JavaScript libraries
+provided by Facebook/Google on your client side.
+
+It uses the slf4j api for logging.
+
 
 ## Installation
 
