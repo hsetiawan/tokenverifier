@@ -4,8 +4,8 @@ This library provides a simple to use interface to validate Facebook and Google 
 only provides validation, it will not request long term access tokens and will not provide methods to interact
 with the social services in any other way.
 
-The code validates the token's integrity, check if it's intended for your app id, and checks it with the provider's
-service (it requires network access).
+The code validates the token's integrity, check if it's intended for your app id and the claimed user, 
+and checks it with the provider's service (it requires network access).
 
 It's suitable for authentication login on your backend when you use the JavaScript libraries
 provided by Facebook/Google on your client side.
