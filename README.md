@@ -11,21 +11,21 @@ service (therefore it requires network access).
 
 Clone the repository:
 
-```
+```bash
 git clone https://github.com/miklosn/tokenverifier.git
 ```
 
 Install it in your local maven repo:
 
 
-```
+```bash
 cd tokenverifier
 mvn install
 ```
 
 Use it in your Maven project:
 
-```
+```xml
         <dependency>
             <groupId>hu.cray</groupId>
             <artifactId>tokenverifier</artifactId>
@@ -35,8 +35,8 @@ Use it in your Maven project:
 
 ## Usage
 
-```
-import hu.cray.tokenverifiyer.*;
+```java
+import hu.cray.tokenverifier.*;
 
 ...
 
