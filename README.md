@@ -1,3 +1,5 @@
+[ ![Download](https://api.bintray.com/packages/miklosn/hu.cray/tokenverifier/images/download.svg) ](https://bintray.com/miklosn/hu.cray/tokenverifier/_latestVersion)
+
 # Token verifier
 
 This library provides a simple to use interface to validate Facebook and Google client tokens on your backend. It 
